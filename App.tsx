@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { X } from 'lucide-react';
 import LoginForm from './LoginForm';
-import Header from './components/Header';
+import Header from './src/components/Header';
 import BrandCatalog from './pages/BrandCatalog';
 import BrandProducts from './pages/BrandProducts';
 import { getCurrentUser } from './lib/auth';

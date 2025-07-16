@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Eye, EyeOff, LogIn, User, Lock } from 'lucide-react';
-import { signIn } from './lib/auth';
+import { signIn } from './src/lib/auth';
 
 interface LoginFormProps {
   onLoginSuccess: (user: any) => void;
